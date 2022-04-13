@@ -10,7 +10,7 @@ class Home extends Controllers
   public function home()
   {
     $data['page_id'] = 1;
-    $data['page_tag'] = "Home Sistema Reservas";
+    $data['page_tag'] = "Sistema Reservas - Psicol";
     $data['page_title'] = "HOME";
     $data['page_name'] = "home";
     $data['page_content'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus voluptas omnis quis, sed aspernatur officia eum. Autem ab ipsa minus.";

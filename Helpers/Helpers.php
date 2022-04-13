@@ -1,6 +1,6 @@
 <?php
 
-//Retornar la URL Base
+//Retornar la ruta Raíz
 function base_url()
 {
   return BASE_URL;
@@ -10,6 +10,18 @@ function base_url()
 function media()
 {
   return BASE_URL . "/Assets";
+}
+
+function headerAdmin($data = "")
+{
+  $view_header = "Views/Template/header_admin.php";
+  require_once($view_header);
+}
+
+function footerAdmin($data = "")
+{
+  $view_footer = "Views/Template/footer_admin.php";
+  require_once($view_footer);
 }
 
 //Debug Formato
