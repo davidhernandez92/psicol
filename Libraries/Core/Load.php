@@ -1,8 +1,8 @@
 <?php
 
+//Función para cargar los controladores
 $controller = ucwords($controller);
 $controllerFile = "Controllers/" . $controller . ".php";
-
 if (file_exists($controllerFile)) {
   require_once($controllerFile);
   $controller = new $controller();

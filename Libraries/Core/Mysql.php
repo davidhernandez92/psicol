@@ -13,7 +13,7 @@ class Mysql extends Conexion
     $this->conexion = $this->conexion->conect();
   }
 
-  // MÉTODOS DEL CRUD
+  // TODOS LOS MÉTODOS DEL CRUD
 
   // Método para crear registros
   public function insert(string $query, array $arrValues)

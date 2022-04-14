@@ -33,6 +33,13 @@ function dep($data)
   return $format;
 }
 
+// Función para abrir Modal
+function getModal(string $nameModal, $data)
+{
+  $view_modal = "Views/Template/Modals/{$nameModal}.php";
+  require_once $view_modal;
+}
+
 //Elimina exceso de espacios, prevenir inyecciones SQL
 function strClean($strCadena)
 {

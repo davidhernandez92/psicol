@@ -1,0 +1,31 @@
+.table-controls {
+  margin-bottom: 0;
+}
+
+.table-controls > li {
+  display: inline-block;
+  margin: 0 2px;
+  line-height: 1;
+}
+
+.icon-table svg {
+  color: #888ea8 !important;
+  transition: all ease-in-out 0.2s;
+}
+
+.icon-table:hover .feather-plus-square,
+.icon-table:hover .feather-edit-2 {
+  color: #1abc9c !important;
+}
+
+.icon-table:hover .feather-trash-2 {
+  color: #e7515a !important;
+}
+
+.icon-table:hover .feather-key {
+  color: #e2a03f !important;
+}
+
+.notBlock {
+  display: none;
+}

@@ -1,5 +1,6 @@
 <?php
 
+//Metodo para llamar las vistas
 class Views
 {
   function getView($controller, $view, $data = "")
