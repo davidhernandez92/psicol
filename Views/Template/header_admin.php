@@ -12,16 +12,17 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
   <link href="<?= media(); ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="<?= media(); ?>/css/plugins.css" rel="stylesheet" type="text/css" />
-  <link href="<?= media(); ?>/css/styles.css" rel="stylesheet" type="text/css" />
   <link href="<?= media(); ?>/plugins/animate/animate.css" rel="stylesheet" type="text/css" />
-  <!-- END GLOBAL MANDATORY STYLES -->
-
-  <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
   <link href="<?= media(); ?>/css/components/custom-modal.css" rel="stylesheet" type="text/css" />
   <link href="<?= media(); ?>/plugins/table/datatable/datatables.css" rel="stylesheet" type="text/css">
   <link href="<?= media(); ?>/plugins/table/datatable/dt-global_style.css" rel="stylesheet" type="text/css">
   <link href="<?= media(); ?>/plugins/sweetalerts/sweetalert.css" rel="stylesheet" type="text/css" />
   <link href="<?= media(); ?>/css/forms/switches.css" rel="stylesheet" type="text/css">
+  <link href="<?= media(); ?>/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+  <!-- END GLOBAL MANDATORY STYLES -->
+
+  <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+  <link href="<?= media(); ?>/css/styles.css" rel="stylesheet" type="text/css" />
   <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
 
 </head>

@@ -13,9 +13,9 @@
         </button>
       </div>
 
-      <div class="modal-body">
-        <form id="formRol" name="formRol">
-          <input type="hidden" id="idRol" name="idRol" value="">
+      <form id="formRol" name="formRol">
+        <input type="hidden" id="idRol" name="idRol" value="">
+        <div class="modal-body">
           <div class="form-group mb-4">
             <label for="txtNombre">Nombre</label>
             <input type="text" class="form-control" id="txtNombre" name="txtNombre" placeholder="Nombre del Rol">
@@ -27,20 +27,20 @@
           </div>
 
           <div class="form-group mb-4">
-            <label>Estado</label>
-            <select class="custom-select mb-4" id="listStatus" name="listStatus">
+            <label for="listStatus">Estado</label>
+            <select class="form-control selectpicker" id="listStatus" name="listStatus" required>
               <option value="1">Activo</option>
               <option value="2">Inactivo</option>
             </select>
           </div>
 
-          <div class="modal-footer text-center pt-3 pb-0">
-            <button id="btnActionForm" type="submit" class="btn btn-primary"><span id="btnText">Guardar</span></button>
-            <button class="btn" data-dismiss="modal"><i class="flaticon-cancel-12"></i> Cancelar</button>
-          </div>
+        </div>
 
-        </form>
-      </div>
+        <div class="modal-footer justify-content-center">
+          <button id="btnActionForm" type="submit" class="btn btn-primary mr-3"><span id="btnText">Guardar</span></button>
+          <button class="btn" data-dismiss="modal"><i class="flaticon-cancel-12"></i> Cancelar</button>
+        </div>
+      </form>
 
     </div>
   </div>

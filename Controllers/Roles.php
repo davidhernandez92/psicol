@@ -10,7 +10,7 @@ class Roles extends Controllers
   public function Roles()
   {
     $data['page_id'] = 3;
-    $data['page_tag'] = "Roles de Usuario";
+    $data['page_tag'] = "Roles - Sistema de Reservas";
     $data['page_name'] = "rol_usuario";
     $data['page_title'] = "Roles de Usuario";
     $data['page_functions_js'] = "functions_roles.js";
@@ -81,6 +81,22 @@ class Roles extends Controllers
     }
     die();
   }
+
+  public function getSelectRoles()
+  {
+    $htmlOptions = "";
+    $arrData = $this->model->selectRoles();
+    if (count($arrData) > 0) {
+      for ($i = 0; $i < count($arrData); $i++) {
+        if ($arrData[$i]['status'] == 1) {
+          $htmlOptions .= '<option value="' . $arrData[$i]['idrol'] . '">' . $arrData[$i]['nombrerol'] . '</option>';
+        }
+      }
+    }
+    echo $htmlOptions;
+    die();
+  }
+
 
   // Crear Nuevo Rol
   public function setRol()

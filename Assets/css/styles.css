@@ -29,3 +29,7 @@
 .notBlock {
   display: none;
 }
+
+.btn-group .dropdown-menu a.dropdown-item {
+  color: #bfc9d4;
+}

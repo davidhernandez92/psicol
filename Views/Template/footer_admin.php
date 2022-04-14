@@ -23,6 +23,8 @@
   <script src="<?= media(); ?>/js/functions/functions_admin.js"></script>
   <script src="<?= media(); ?>/js/functions/<?= $data['page_functions_js']; ?>"></script>
   <script src="<?= media(); ?>/plugins/sweetalerts/sweetalert2.min.js"></script>
+  <script src="<?= media(); ?>/js/scrollspyNav.js"></script>
+  <script src="<?= media(); ?>/plugins/bootstrap-select/bootstrap-select.min.js"></script>
   <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
   </body>
 
